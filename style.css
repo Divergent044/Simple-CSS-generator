@@ -1,0 +1,26 @@
+#block {
+    width: 0%;
+    height: 150px;
+    background: #0d0051;
+}
+.textFields {
+    width: 35px;
+}
+#textBlock {
+    float: left;
+    margin-right: 10px;
+}
+#rangeBlock {
+    float: left;
+    margin-right: 10px;
+}
+#ttl {
+    margin-top: 18px;
+    margin-bottom: -7px;
+}
+#ttr, #tbr, #tWidth, #tOpacity {
+    margin-bottom: -10px;
+}
+#rtr, #rbr, #rbl, #rWidth, #rOpacity{
+    margin-top: -10px;
+}

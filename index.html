@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Tutorial</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="textBlock">
+		<p>Верхний левый угол</p>
+		<p>Верхний правый угол</p>
+		<p>Нижний правый угол</p>
+		<p>Нижний левый угол</p>
+		<p>Ширина блока</p>
+		<p>Прозрачность блока</p>
+	</div>
+
+	<div id="rangeBlock">
+		<p><input type="range" id="rtl" min="0" max="100" value="0" oninput="fun()"></p>
+		<p><input type="range" id="rtr" min="0" max="100" value="0" oninput="fun()"></p>
+		<p><input type="range" id="rbr" min="0" max="100" value="0" oninput="fun()"></p>
+		<p><input type="range" id="rbl" min="0" max="100" value="0" oninput="fun()"></p>
+		<p><input type="range" id="rWidth" min="0" max="100" value="0" oninput="fun()"></p>
+		<p><input type="range" id="rOpacity" min="0" max="100" value="0" oninput="fun()"></p>
+	</div>
+
+	<div id="textFieldBlock">
+		<p><input type="text" id="ttl" value="0" class="textFields"></p>
+		<p><input type="text" id="ttr" value="0" class="textFields"></p>
+		<p><input type="text" id="tbr" value="0" class="textFields"></p>
+		<p><input type="text" id="tbl" value="0" class="textFields"></p>
+		<p><input type="text" id="tWidth" value="0" class="textFields"></p>
+		<p><input type="text" id="tOpacity" value="0" class="textFields"></p>
+	</div>
+
+	<div id="block">
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
